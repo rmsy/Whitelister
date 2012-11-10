@@ -1,0 +1,6 @@
+name: Whitelister
+main: tc.oc.whitelister.Whitelister
+version: 0.1
+authors:
+- Anxuiz
+- MonsieurApple
