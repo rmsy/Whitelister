@@ -12,11 +12,6 @@
     <!-- Repository Locations -->
     <repositories>
         <repository>
-            <name>Bukkit Repo</name>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public</url>
-        </repository>
-        <repository>
             <name>Maven Repo</name>
             <id>mvn-repo</id>
             <url>http://repo1.maven.org/maven2</url>
@@ -26,8 +21,8 @@
     <!-- Dependencies -->
     <dependencies>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
+            <groupId>tc.oc</groupId>
+            <artifactId>pgm-bukkit</artifactId>
             <version>1.4.2-R0.3-SNAPSHOT</version>
         </dependency>
         <dependency>
