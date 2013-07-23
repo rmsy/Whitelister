@@ -9,6 +9,12 @@
     <url>oc.tc/</url>
     <description>Adds whitelisting functions</description>
 
+    <properties>
+        <!-- Plugin properties -->
+        <plugin.mainClass>tc.oc.whitelister.Whitelister</plugin.mainClass>
+        <plugin.prefix>Whitelister</plugin.prefix>
+    </properties>
+
     <!-- Repository Locations -->
     <repositories>
         <repository>
@@ -40,6 +46,7 @@
         <resources>
             <resource>
                 <targetPath>.</targetPath>
+                <filtering>true</filtering>
                 <directory>${basedir}/src/resources/</directory>
             </resource>
         </resources>
